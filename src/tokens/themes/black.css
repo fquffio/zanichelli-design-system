@@ -1,0 +1,95 @@
+.theme-black {
+  --color-background: var(--color-white);
+
+  /* primary */
+  --color-active-primary-icon: var(--gray800);
+  --color-active-primary: var(--gray800);
+  --color-hover-primary-icon: var(--gray800);
+  --color-hover-primary: var(--gray800);
+  --color-pressed-primary: var(--gray800);
+  --color-primary01: var(--gray950);
+  --color-primary02: var(--gray50);
+  --color-primary03: var(--gray100);
+
+  /* secondary */
+  --color-active-secondary: var(--gray400);
+  --color-hover-secondary: var(--gray800);
+  --color-pressed-secondary: var(--gray400);
+  --color-secondary01: var(--gray500);
+  --color-secondary02: var(--gray25);
+  --color-secondary03: var(--gray50);
+
+  /* surface */
+  --color-surface01: var(--color-white);
+  --color-surface02: var(--gray100);
+  --color-surface03: var(--gray300);
+  --color-surface04: var(--gray700);
+  --color-surface05: var(--gray900);
+
+  /* text */
+  --color-default-text: var(--gray950);
+  --color-hover-text: var(--color-black);
+  --color-pressed-text: var(--gray700);
+  --color-text-inverse: var(--color-white);
+  --color-text02: var(--gray100);
+  --color-text03: var(--gray300);
+  --color-text05: var(--gray500);
+
+  /* icons */
+  --color-default-icon: var(--gray900);
+  --color-hover-icon: var(--color-black);
+  --color-inverse-icon: var(--color-white);
+  --color-pressed-icon: var(--gray700);
+  --color-primary01-icon: var(--gray950);
+
+  /* forms */
+  --color-form-active-primary: var(--red400); /* TODO */
+  --color-form-hover-primary: var(--red800); /* TODO */
+}
+
+.theme-black--red {
+  --color-active-secondary: var(--red400);
+  --color-hover-secondary: var(--red800);
+  --color-pressed-secondary: var(--red400);
+  --color-secondary01: var(--red500);
+  --color-secondary02: var(--red25);
+  --color-secondary03: var(--red50);
+}
+
+.theme-black--yellow {
+  --color-active-secondary: var(--yellow400); /* TODO */
+  --color-hover-secondary: var(--yellow800); /* TODO */
+  --color-pressed-secondary: var(--yellow400); /* TODO */
+  --color-secondary01: var(--yellow500);
+  --color-secondary02: var(--yellow800);
+  --color-secondary03: var(--yellow100);
+}
+
+/** @deprecated Kept for backwards compatibility */
+.theme-black-yellow {
+  --color-background: var(--color-white);
+  --color-primary01: var(--gray950);
+  --color-primary02: var(--gray50);
+  --color-primary03: var(--gray100);
+  --color-secondary01: var(--yellow500);
+  --color-secondary02: var(--yellow500);
+  --color-secondary03: var(--yellow500);
+  --color-default-text: var(--gray950);
+  --color-text02: var(--gray950);
+  --color-text-inverse: var(--color-white);
+  --color-primary01-icon: var(--gray950);
+  --color-hover-primary: var(--gray800);
+  --color-hover-secondary: var(--gray950);
+  --color-hover-tertiary: var(--gray950);
+  --color-hover-surface: var(--gray50);
+  --color-hover-primary-text: var(--gray950);
+  --color-hover-light: var(--yellow500);
+  --color-active-primary: var(--gray800);
+  --color-active-secondary: var(--gray800);
+  --color-active-tertiary: var(--gray800);
+  --color-active-surface: var(--gray300);
+  --color-active-light: var(--gray400);
+  --color-pressed-primary: var(--gray800);
+  --color-highlight: var(--gray950);
+  --shadow-focus-primary: 0 0 0 2px var(--color-white), 0 0 2px 5px var(--color-highlight);
+}
